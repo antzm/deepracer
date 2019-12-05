@@ -32,7 +32,7 @@ Whenever submitting a model to the race, the car always runs 5 laps. Each of tho
 Each new episode in the logs starts with the line “agent: Starting evaluation phase” followed by several (or even hundreds) of “SIM_TRACE_LOG:” lines.
 
 
-Each “SIM_TRACE_LOG:” line has 15 variables (separated by commas) which are as follows:
+Each “SIM_TRACE_LOG:” line has 16 variables (separated by commas) which are as follows:
 
 var | Meaning | example
 ---|---|---
@@ -40,10 +40,7 @@ var | Meaning | example
 2 | step | Starts at 0 and increments by 1 every 1/15 of a second. i.e. there are 15 steps on the log file for every second of the race.
 3 | x-coordinate | The x-coordinate of the car
 4 | y-coordinate | The y-coordinate of the car
-5 | heading | The heading of the car in radians. To convert to degrees, multiply by 57,2957795
-On a X-Y coordinate, when the car is heading right, the heading is 0o. Heading up is 90o. Heading left is 180o
-Negative values: When the car is heading right is 0o. Heading down is -90o and heading left is -180o
-So, heading right, might be 180o or -180o depending on its previous position
+5 | heading | The heading of the car in radians. 
 6 | steering_angle | The steering angle in radians
 7 | speed | The maximum speed of the car in meters per second (m/s)
 8 | action_taken | The action number that the model takes, according to the numbering used in the action space
@@ -54,3 +51,14 @@ So, heading right, might be 180o or -180o depending on its previous position
 13 | closest_waypoint_index | These are numbers across the track, starting from 1 and up to a max number which is usaually between 150 and 180
 14 | track_length | The length of the track in meters
 15 | time.time() | Time in a format like this: 1569740907.5428395
+16 | *new variable* | Recently added variable with the values: in_progress, off_track, lap_complete
+
+## The Variables in more detail
+
+5. This is the heading of the car in radians. To convert to degrees, we should multiply by 57,29587795  
+(360 degress = 2π radians => 1 radian = 360/2π degress => 1 radian = 360/2\*3,14159 => 1 radian = 57,2958)
+
+On a X-Y coordinate, when the car is heading right, the heading is 0o. Heading up is 90o. Heading left is 180o
+Negative values: When the car is heading right is 0o. Heading down is -90o and heading left is -180o
+So, heading right, might be 180o or -180o depending on its previous position
+
