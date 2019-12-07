@@ -51,7 +51,7 @@ var | Meaning | example
 13 | closest_waypoint_index | These are numbers across the track, starting from 1 and up to a max number which is usaually between 150 and 180
 14 | track_length | The length of the track in meters
 15 | time.time() | Time in a format like this: 1569740907.5428395
-16 | *new variable* | Recently added variable with the values: in_progress, off_track, lap_complete
+16 | *new variable* | Recently added variable with the values: in_progress, off_track, crashed, lap_complete
 
 ## The Variables in more detail
 
@@ -62,3 +62,16 @@ On a X-Y coordinate, when the car is heading right, the heading is 0o. Heading u
 Negative values: When the car is heading right is 0o. Heading down is -90o and heading left is -180o
 So, heading right, might be 180o or -180o depending on its previous position
 
+### 14. track_length
+This variable shows the length of the track in meters. Take into consideration though, that the training track is usually longer than the corresponding reacing track.
+
+### 15. time.time()
+This variable is used to calculate the time and the format is: 1569740907.5428395  
+A simpler, though only approximate way to estimate the time, is to divide the number of steps with 15, as there are 15 steps every second.
+
+### 16. *new variable* representing "status"
+This variable was added at the end of November 2019 and it gets the following values:
+* in_progress
+* off_track
+* crashed
+* lap_complete
