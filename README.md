@@ -55,12 +55,36 @@ var | Meaning | example
 
 ## The Variables in more detail
 
-5. This is the heading of the car in radians. To convert to degrees, we should multiply by 57,29587795  
+### 1.
+
+### 2.
+
+### 3.
+
+### 4.
+
+### 5. This is the heading of the car in radians. To convert to degrees, we should multiply by 57,29587795  
 (360 degress = 2π radians => 1 radian = 360/2π degress => 1 radian = 360/2\*3,14159 => 1 radian = 57,2958)
 
 On a X-Y coordinate, when the car is heading right, the heading is 0o. Heading up is 90o. Heading left is 180o
 Negative values: When the car is heading right is 0o. Heading down is -90o and heading left is -180o
 So, heading right, might be 180o or -180o depending on its previous position
+
+### 6. This is the steering angle in radians
+
+### 7.
+
+### 8.
+
+### 9. This is the value of the reward
+
+### 10.
+
+### 11.
+
+### 12. This is the % completion of the track
+
+### 13.
 
 ### 14. track_length
 This variable shows the length of the track in meters. Take into consideration though, that the training track is usually longer than the corresponding reacing track.
