@@ -55,46 +55,50 @@ var | Meaning | example
 
 ## The Variables in more detail
 
-### 1.
+### 1. Episode
 
-### 2.
+### 2. Step
 
-### 3.
+### 3. x-coordinate
 
-### 4.
+### 4. y-coordinate
 
-### 5. This is the heading of the car in radians. To convert to degrees, we should multiply by 57,29587795  
+### 5. Heading
+This is the heading of the car in radians. To convert to degrees, we should multiply by 57,29587795  
 (360 degress = 2π radians => 1 radian = 360/2π degress => 1 radian = 360/2\*3,14159 => 1 radian = 57,2958)
 
 On a X-Y coordinate, when the car is heading right, the heading is 0o. Heading up is 90o. Heading left is 180o
 Negative values: When the car is heading right is 0o. Heading down is -90o and heading left is -180o
 So, heading right, might be 180o or -180o depending on its previous position
 
-### 6. This is the steering angle in radians
+### 6. Steering angle
+This is the steering angle in radians
 
-### 7.
+### 7. Speed
 
-### 8.
+### 8. Action taken
 
-### 9. This is the value of the reward
+### 9. Reward
+This is the value of the reward
 
-### 10.
+### 10. Job completed
 
-### 11.
+### 11. All wheels on track
 
-### 12. This is the % completion of the track
+### 12. Progress
+This is the % completion of the track
 
-### 13.
+### 13. Slosest waypoin index
 
-### 14. track_length
+### 14. Track length
 This variable shows the length of the track in meters. Take into consideration though, that the training track is usually longer than the corresponding reacing track.
 
-### 15. time.time()
+### 15. Time
 This variable is used to calculate the time and the format is: 1569740907.5428395  
 A simpler, though only approximate way to estimate the time, is to divide the number of steps with 15, as there are 15 steps every second.
 
 ### 16. *new variable* representing "status"
-This variable was added at the end of November 2019 and it gets the following values:
+This undocumented variable was added at the end of November 2019 and it gets the following values:
 * in_progress
 * off_track
 * crashed
