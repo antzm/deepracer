@@ -32,7 +32,7 @@
 ## Leaderboard
 ![](imgs/names-04.PNG)
 
-# Track 5
+# Shanghai Sudu (August 2019)
 ## Track:
 ![](imgs/race-05.svg)
 ## Logo:
@@ -40,7 +40,7 @@
 ## Leaderboard
 ![](imgs/names-05.PNG)
 
-# Track 6
+# Cumulo Carrera (September 2019)
 ## Track:
 ![](imgs/race-06.svg)
 ## Logo:
@@ -48,7 +48,7 @@
 ## Leaderboard
 ![](imgs/names-06.PNG)
 
-# Track 7
+# Toronto Turnpike (October 2019)
 ## Track:
 ![](imgs/race-07.svg)
 ## Logo:
@@ -56,7 +56,7 @@
 ## Leaderboard
 ![](imgs/names-07.PNG)
 
-# Track 8
+# Championship Cup Warm-up (November 2019)
 ## Track:
 ![](imgs/race-08.svg)
 ## Logo:
@@ -64,7 +64,7 @@
 ## Leaderboard
 ![](imgs/names-08.PNG)
 
-# Track 9
+# AWS Summit Raceway (December 2019)
 ## Track:
 ![](imgs/race-09.svg)
 ## Logo:
