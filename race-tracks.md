@@ -1,7 +1,6 @@
-# Racing Tracks
+# **Racing Tracks**
 
 # Summit Speedway Pre-season (April 2019)
-## Track:
 ![](imgs/race-01.svg)
 ## Logo:
 ![](imgs/logo-01.PNG)
@@ -9,7 +8,6 @@
 ![](imgs/names-01.PNG)
 
 # London Loop (May 2019)
-## Track:
 ![](imgs/race-02.svg)
 ## Logo:
 ![](imgs/logo-02.PNG)
@@ -17,7 +15,6 @@
 ![](imgs/names-02.PNG)
 
 # Kumo Torakku (June 2019)
-## Track:
 ![](imgs/race-03.svg)
 ## Logo:
 ![](imgs/logo-03.PNG)
@@ -25,7 +22,6 @@
 ![](imgs/names-03.PNG)
 
 # Empire City Circuit (July 2019)
-## Track:
 ![](imgs/race-04.svg)
 ## Logo:
 ![](imgs/logo-04.PNG)
@@ -33,7 +29,6 @@
 ![](imgs/names-04.PNG)
 
 # Shanghai Sudu (August 2019)
-## Track:
 ![](imgs/race-05.svg)
 ## Logo:
 ![](imgs/logo-05.PNG)
@@ -41,7 +36,6 @@
 ![](imgs/names-05.PNG)
 
 # Cumulo Carrera (September 2019)
-## Track:
 ![](imgs/race-06.svg)
 ## Logo:
 ![](imgs/logo-06.PNG)
@@ -49,7 +43,6 @@
 ![](imgs/names-06.PNG)
 
 # Toronto Turnpike (October 2019)
-## Track:
 ![](imgs/race-07.svg)
 ## Logo:
 ![](imgs/logo-07.PNG)
@@ -57,7 +50,6 @@
 ![](imgs/names-07.PNG)
 
 # Championship Cup Warm-up (November 2019)
-## Track:
 ![](imgs/race-08.svg)
 ## Logo:
 ![](imgs/logo-08.PNG)
@@ -65,7 +57,6 @@
 ![](imgs/names-08.PNG)
 
 # AWS Summit Raceway (December 2019)
-## Track:
 ![](imgs/race-09.svg)
 ## Logo:
 ![](imgs/logo-09.PNG)
