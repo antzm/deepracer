@@ -61,7 +61,7 @@
 ![](imgs/race-08.svg)
 ## Logo:
 ![](imgs/logo-08.PNG)
-## Leaderboard:
+## Preliminary Leaderboard:
 ![](imgs/names-08.PNG)  
    
 
