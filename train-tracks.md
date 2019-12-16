@@ -5,10 +5,10 @@
 
 # re:Invent 2018
 
-Dimensions | cm | inches
+Dimensions | meters / cm | feet / inches
 -----------|--------|-------
-Length: | x1 | x2
-Width: | y1 | y2
+Length: | 17.6 m | 57.97'
+Width: | 76 cm | 30"
 
 ![](imgs/train-01.svg)
 
@@ -16,10 +16,10 @@ Width: | y1 | y2
 
 # AWS Summit Raceway
 
-Dimensions | cm | inches
+Dimensions | meters / cm | feet / inches
 -----------|--------|-------
-Length: | x1 | x2
-Width: | y1 | y2
+Length: | 22.57 m | 74'
+Width: | 91 cm | 36"
 
 ![](imgs/train-02.svg)
 
@@ -27,10 +27,10 @@ Width: | y1 | y2
 
 # The 2019 DeppRacer Championship Cup
 
-Dimensions | cm | inches
+Dimensions | meters / cm | feet / inches
 -----------|--------|-------
-Length: | x1 | x2
-Width: | y1 | y2
+Length: | 23.12 m | 75.85'
+Width: | 107 cm | 42"
 
 ![](imgs/train-03.svg)
 
