@@ -5,7 +5,7 @@
 
 # re:Invent 2018
 
-Dimensions | meters / cm | feet / inches
+Dimensions | meters/cm | feet/inches
 -----------|--------|-------
 Length: | 17.6 m | 57.97'
 Width: | 76 cm | 30"
@@ -16,7 +16,7 @@ Width: | 76 cm | 30"
 
 # AWS Summit Raceway
 
-Dimensions | meters / cm | feet / inches
+Dimensions | meters/cm | feet/inches
 -----------|--------|-------
 Length: | 22.57 m | 74'
 Width: | 91 cm | 36"
@@ -27,7 +27,7 @@ Width: | 91 cm | 36"
 
 # The 2019 DeppRacer Championship Cup
 
-Dimensions | meters / cm | feet / inches
+Dimensions | meters/cm | feet/inches
 -----------|--------|-------
 Length: | 23.12 m | 75.85'
 Width: | 107 cm | 42"
@@ -38,10 +38,10 @@ Width: | 107 cm | 42"
 
 # Toronto Turnpike Training
 
-Dimensions | cm | inches
+Dimensions | meters/cm | feet/inches
 -----------|--------|-------
-Length: | x1 | x2
-Width: | y1 | y2
+Length: | 23.12 m | 75.85'
+Width: | 107 cm | 42"
 
 ![](imgs/train-04.svg)
 
@@ -49,10 +49,10 @@ Width: | y1 | y2
 
 # Cumulo Carrera Training
 
-Dimensions | cm | inches
+Dimensions | meters/cm | feet/inches
 -----------|--------|-------
-Length: | x1 | x2
-Width: | y1 | y2
+Length: | 20.51 m | 67.29'
+Width: | 76 cm | 30"
 
 ![](imgs/train-05.svg)
 
@@ -60,10 +60,10 @@ Width: | y1 | y2
 
 # Shanghai Sudu Training
 
-Dimensions | cm | inches
+Dimensions | meters/cm | feet/inches
 -----------|--------|-------
-Length: | x1 | x2
-Width: | y1 | y2
+Length: | 22.92 m | 75.2'
+Width: | 76 cm | 30"
 
 ![](imgs/train-06.svg)
 
@@ -71,7 +71,7 @@ Width: | y1 | y2
 
 # Empire City Training
 
-Dimensions | cm | inches
+Dimensions | meters/cm | feet/inches
 -----------|--------|-------
 Length: | x1 | x2
 Width: | y1 | y2
@@ -82,7 +82,7 @@ Width: | y1 | y2
 
 # Kumo Torakku Training
 
-Dimensions | cm | inches
+Dimensions | meters/cm | feet/inches
 -----------|--------|-------
 Length: | x1 | x2
 Width: | y1 | y2
@@ -93,7 +93,7 @@ Width: | y1 | y2
 
 # London Loop Training
 
-Dimensions | cm | inches
+Dimensions | meters/cm | feet/inches
 -----------|--------|-------
 Length: | x1 | x2
 Width: | y1 | y2
@@ -104,7 +104,7 @@ Width: | y1 | y2
 
 # Bowtie Track
 
-Dimensions | cm | inches
+Dimensions | meters/cm | feet/inches
 -----------|--------|-------
 Length: | x1 | x2
 Width: | y1 | y2
@@ -115,7 +115,7 @@ Width: | y1 | y2
 
 # Oval Track
 
-Dimensions | cm | inches
+Dimensions | meters/cm | feet/inches
 -----------|--------|-------
 Length: | x1 | x2
 Width: | y1 | y2
@@ -126,7 +126,7 @@ Width: | y1 | y2
 
 # re:Invent 2018 Wide
 
-Dimensions | cm | inches
+Dimensions | meters/cm | feet/inches
 -----------|--------|-------
 Length: | x1 | x2
 Width: | y1 | y2
