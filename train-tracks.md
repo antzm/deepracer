@@ -73,8 +73,8 @@ Width: | 76 cm | 30"
 
 Dimensions | meters/cm | feet/inches
 -----------|--------|-------
-Length: | x1 | x2
-Width: | y1 | y2
+Length: | 21.88 m | 71.78'
+Width: | 76 cm | 30"
 
 ![](imgs/train-07.svg)
 
@@ -84,8 +84,8 @@ Width: | y1 | y2
 
 Dimensions | meters/cm | feet/inches
 -----------|--------|-------
-Length: | x1 | x2
-Width: | y1 | y2
+Length: | 22.63 m | 74.25'
+Width: | 76 cm | 30"
 
 ![](imgs/train-08.svg)
 
@@ -95,8 +95,8 @@ Width: | y1 | y2
 
 Dimensions | meters/cm | feet/inches
 -----------|--------|-------
-Length: | x1 | x2
-Width: | y1 | y2
+Length: | 19.45 m | 63.81'
+Width: | 76 cm | 30"
 
 ![](imgs/train-09.svg)
 
@@ -106,8 +106,8 @@ Width: | y1 | y2
 
 Dimensions | meters/cm | feet/inches
 -----------|--------|-------
-Length: | x1 | x2
-Width: | y1 | y2
+Length: | 17.43 m | 57.19'
+Width: | 76 cm | 30"
 
 ![](imgs/train-10.svg)
 
@@ -117,8 +117,8 @@ Width: | y1 | y2
 
 Dimensions | meters/cm | feet/inches
 -----------|--------|-------
-Length: | x1 | x2
-Width: | y1 | y2
+Length: | 19.55 m | 64.14'
+Width: | 76 cm | 30"
 
 ![](imgs/train-11.svg)
 
@@ -128,7 +128,7 @@ Width: | y1 | y2
 
 Dimensions | meters/cm | feet/inches
 -----------|--------|-------
-Length: | x1 | x2
-Width: | y1 | y2
+Length: | 16.64 m | 54.59'
+Width: | 107 cm | 42"
 
 ![](imgs/train-12.svg)
