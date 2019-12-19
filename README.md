@@ -56,8 +56,10 @@ var | Meaning | example
 ## The Variables in more detail
 
 ### 1. Episode
+When sending a model to a virtual race, the car will try five (5) times to complete a lap. Each one of those 5 trials is an episode and the numbering of the episodes is: 0, 1, 2, 3, and 4
 
 ### 2. Step
+The deepracer camera provides 15 images per second. Based on each one of those images, the car decides about the next action that is goinf to take. So, every 1/15th of a second, the car uses the current image to make a decision and this is counted as one step. Thus, the car takes 15 steps per second and so, if a car takes e.g. 386 steps to complete a lap, then the approximate time is around: 386 steps / 15 steps per second =  27.733 seconds. This time though is just an approximation as there is a dedicated variable to caluclate the exact time od each lap.
 
 ### 3. x-coordinate
 
