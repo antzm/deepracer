@@ -81,6 +81,7 @@ This is the steering angle in radians. When defining the action space, the steer
 ### 7. Speed
 
 ### 8. Action taken
+Based solely on the image from the camera, the car uses that image to make a decision. The decision is one of the available actions in the action space and this variable shows the number of action that the car selected as the next step in the racing (e.g. turn right at 15 degrees with a speed of 3).  
 
 ### 9. Reward
 This is the value of the reward
