@@ -84,18 +84,19 @@ This is the steering angle in radians. When defining the action space, the steer
 Based solely on the image from the camera, the car uses that image to make a decision. The decision is one of the available actions in the action space and this variable shows the number of action that the car selected as the next step in the racing (e.g. turn right at 15 degrees with a speed of 3).  
 
 ### 9. Reward
-This is the value of the reward
+This is the value of the reward that the car gets at every step. At the end of each episode, there's also a value with the Total Reward for that episode.
 
 ### 10. Job completed
-Booleean variable.
+Booleean variable. This is False as long a the car races and becomes True when the race ends i.e. The car either succefully completes a lap or it goes off track.
 
 ### 11. All wheels on track
-Booleean variable.
+Booleean variable. True when all the wheels are on the track anf False otherwise.
 
 ### 12. Progress
-This is the % completion of the track
+This is the % completion of the track presented with an accuracy of four decimal points.
 
-### 13. Closest waypoin index
+### 13. Closest waypoint index
+This variable shows the closest index at each step of the race. i.e. the waypoint with the smallest distance from the car.
 
 ### 14. Track length
 This variable shows the length of the track in meters. Take into consideration though, that the training track is usually longer than the corresponding reacing track.
