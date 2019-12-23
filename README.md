@@ -79,6 +79,9 @@ So, heading right, might be 180o or -180o depending on its previous position
 This is the steering angle in radians. When defining the action space, the steering angle is mentioned in degrees but during the racing, the steering angle is logged in radians. To convert those radians we just multiply by 57,29587795 and we get the values in degrees.
 
 ### 7. Speed
+The speeds that can be selected in the action space differ from time to time. Currently, the speeds that can be selected range from 1 to 4 while in the past is was possible to select speeds from 1 to 8 and during a certain period, even speeds from 1 to 12. Now, those speeds have some common ground beteween them but the exact correlation has not been documented.
+Based on the speeds that were selected in the action space, this variable shows the speed that the car decided to use in each step. We shouldn't think though that this variable represents the actual speed of the car but rather it shows the tendency or the target to reach a certain speed under the ideal conditions and after a cetain time of acceleration. Just like an actual car, it takes some time and distance to go from 50km/h to 100km/h and obviously, takes also some time to go back to 50km/h.
+So, when a car uses only those two speeds, in reality it means that a whole range of values exists between those two speeds and the car needs to go gradually through all those speeds to reach one of the two preselected target speeds.
 
 ### 8. Action taken
 Based solely on the image from the camera, the car uses that image to make a decision. The decision is one of the available actions in the action space and this variable shows the number of action that the car selected as the next step in the racing (e.g. turn right at 15 degrees with a speed of 3).  
