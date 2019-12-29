@@ -1,11 +1,16 @@
 # Creating a DeepRacer Model
 
 1. Log in to the AWS Console
-2. Search for DeepRacer and select it
-3. Create the DeepRacer resources (only needed during the very first time you are using DeepRacer).
-4. Go to Garage and build our model  
+	* If you don't already have, you will need to create an account
 
-In this section, we are going to select the configuration of the car that we will use to build our model.  
+2. Search for DeepRacer and select it
+	* In the AWS console, search for DeepRacer
+
+3. Create the DeepRacer resources (only needed during the very first time you are using DeepRacer).
+	* You will be promped to create the DeepRacer resources
+
+4. Go to Garage and build our model  
+	* In this section, we are going to select the configuration of the car that we will use to build our model.  
 
 We have the option to select a car with:
 
