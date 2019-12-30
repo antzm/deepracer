@@ -39,32 +39,38 @@ Each action in the action space will have a unique number. In the logs, we can s
 
 **Example 1:**  
 
-max speed: 2.6 m/s
+max speed: 2.6 m/s  
 speed granularity: 2 
 
-max steering angle: 30 degrees
+max steering angle: 30 degrees  
 steering granularity: 5  
 
-This action space consists of 2 * 5 = 10 actions
+This action space consists of: 2 * 5 = 10 actions
+
+![](imgs/action-01.PNG) 
 
 **Example 2:**  
 
-max speed: 2.4 m/s
+max speed: 2.4 m/s  
 speed granularity: 3 
 
-max steering angle: 25 degrees
+max steering angle: 25 degrees  
 steering granularity: 3
 
-This action space consists of 3 * 3 = 9 actions
+This action space consists of: 3 * 3 = 9 actions
+
+![](imgs/action-02.PNG) 
 
 **Example 3:**   
 
-max speed: 3 m/s
+max speed: 3 m/s  
 speed granularity: 1  
 
-max steering angle: 30 degrees
+max steering angle: 30 degrees  
 steering granularity: 7 
 
-This action space consists of 1 * 7 = 7 actions
+This action space consists of: 1 * 7 = 7 actions
+
+![](imgs/action-03.PNG) 
 
 5. Create your first model 
