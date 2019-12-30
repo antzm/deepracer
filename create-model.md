@@ -29,19 +29,42 @@ The car's maximum speed and the speed granularity
 
 The car's maximum steering angle and the steering granularity
 * The maximum steering angle can be set from 0 degrees to 30 degress, in steps of 1 degree
-* While the steering granularity can be either 1, 3, 5 or 7
+* While the steering granularity can be either 3, 5 or 7
 
 Thus, the action space will have a total number of actions based on the speed granularity and the steering granularity that we have selected:
 
-Total number of actions in the action space = 
-= speed granularity * steering granularity
+Total number of actions in the action space = speed granularity * steering granularity
 
 Each action in the action space will have a unique number. In the logs, we can see that number and so we are able understand the exact acion that the our model chose at every step of a race.
 
-Example 1:  
+**Example 1:**  
 
-Example 2:  
+max speed: 2.6 m/s
+speed granularity: 2 
 
-Example 3:  
+max steering angle: 30 degrees
+steering granularity: 5  
+
+This action space consists of 2 * 5 = 10 actions
+
+**Example 2:**  
+
+max speed: 2.4 m/s
+speed granularity: 3 
+
+max steering angle: 25 degrees
+steering granularity: 3
+
+This action space consists of 3 * 3 = 9 actions
+
+**Example 3:**   
+
+max speed: 3 m/s
+speed granularity: 1  
+
+max steering angle: 30 degrees
+steering granularity: 7 
+
+This action space consists of 1 * 7 = 7 actions
 
 5. Create your first model 
