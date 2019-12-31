@@ -18,9 +18,10 @@ We have the option to select a car with:
 	* Classic DeepRacer configuration
 * Stereo Camera
 	* Advanced configuration with two cameras that provides distance information which is useful to calculate the distance from objects and thus, helps to avoid collision with vatious objects on the track, or even other DeepRacer cars that raace on the same track.
+* Additionaly, we can select if the car will have LIDAR sensor or not.
 
-one camera | stereo camera
------------|--------------
+LIDAR sensor | one camera | stereo camera
+-------------|------------|---------------
 without LIDAR sensor | ![](imgs/car-01.PNG) | ![](imgs/car-02.PNG) 
 with LIDAR sensor | ![](imgs/car-03.PNG) | ![](imgs/car-04.PNG) 
 
