@@ -19,6 +19,11 @@ We have the option to select a car with:
 * Stereo Camera
 	* Advanced configuration with two cameras that provides distance information which is useful to calculate the distance from objects and thus, helps to avoid collision with vatious objects on the track, or even other DeepRacer cars that raace on the same track.
 
+one camera | stereo camera
+-----------|--------------
+without LIDAR sensor | ![](imgs/car-01.PNG) | ![](imgs/car-02.PNG) 
+with LIDAR sensor | ![](imgs/car-03.PNG) | ![](imgs/car-04.PNG) 
+
 And then, we are going to select the action space of our car.
 
 This means that we are going to select:
