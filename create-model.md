@@ -37,6 +37,10 @@ The car's maximum steering angle and the steering granularity
 * The maximum steering angle can be set from 0 degrees to 30 degress, in steps of 1 degree
 * While the steering granularity can be either 3, 5 or 7
 
+3 steering options | 5 steering options | 7 steering options
+-------------------|--------------------|-------------------
+![](imgs/steering-01.PNG) | ![](imgs/steering-02.PNG) | ![](imgs/steering-03.PNG) 
+
 Thus, the action space will have a total number of actions based on the speed granularity and the steering granularity that we have selected:
 
 Total number of actions in the action space = speed granularity * steering granularity
