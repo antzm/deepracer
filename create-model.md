@@ -9,7 +9,7 @@
 3. Create the DeepRacer resources (only needed during the very first time you are using DeepRacer).
 	* You will be promped to create the DeepRacer resources
 
-4. Go to Garage and build our model  
+4. Go to Garage and build your model  
 	* In this section, we are going to select the configuration of the car that we will use to build our model.  
 
 We have the option to select a car with:
@@ -20,7 +20,7 @@ We have the option to select a car with:
 	* Advanced configuration with two cameras that provides distance information which is useful to calculate the distance from objects and thus, helps to avoid collision with vatious objects on the track, or even other DeepRacer cars that raace on the same track.
 * Additionaly, we can select if the car will have LIDAR sensor or not.
 
-LIDAR sensor | one camera | stereo camera
+LIDAR sensor | One camera | Stereo camera
 -------------|------------|---------------
 without LIDAR sensor | ![](imgs/car-01.PNG) | ![](imgs/car-02.PNG) 
 with LIDAR sensor | ![](imgs/car-03.PNG) | ![](imgs/car-04.PNG) 
@@ -78,5 +78,13 @@ steering granularity: 7
 This action space consists of: 1 * 7 = 7 actions
 
 ![](imgs/action-03.PNG) 
+
+After selectinn the car's configuration, we need to select the network configuration which will be used to train our model.
+
+We have the option to select either a 3-layer deep network or a 5-layer deep network.
+
+3-layer CNN | 5-layer CNN
+------------|---------------
+![](imgs/cnn-01.PNG) | ![](imgs/cnn-02.PNG) 
 
 5. Create your first model 
