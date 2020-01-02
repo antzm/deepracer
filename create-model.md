@@ -40,6 +40,7 @@ The car's maximum steering angle and the steering granularity
 3 steering options | 5 steering options | 7 steering options
 -------------------|--------------------|-------------------
 ![](imgs/steering-01.PNG) | ![](imgs/steering-02.PNG) | ![](imgs/steering-03.PNG) 
+-max 0 max | -max -(1/2)max 0 (1/2)max max | -max -(2/3)max -(1/3)max 0 (1/3)max (2/3)max max
 
 Thus, the action space will have a total number of actions based on the speed granularity and the steering granularity that we have selected:
 
