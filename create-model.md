@@ -40,15 +40,17 @@ The car's maximum steering angle and the steering granularity
 3 steering options | 5 steering options | 7 steering options
 -------------------|--------------------|-------------------
 ![](imgs/steering-01.PNG) | ![](imgs/steering-02.PNG) | ![](imgs/steering-03.PNG) 
--max  0  max | -max -(1/2)max 0 (1/2)max max | -max -(2/3)max -(1/3)max 0 (1/3)max (2/3)max max
+-max 0 max | -max -(1/2)max 0 (1/2)max max | -max -(2/3)max -(1/3)max 0 (1/3)max (2/3)max max
 example: | example: | example:
-max = 30 | max = 26 | max = 24
+when max = 30 | when max = 26 | when max = 24
 -30, 0, 30 | -26, -13, 0, 13, 26 | -24, -16, -8, 0, 8, 16, 24
-
 
 Thus, the action space will have a total number of actions based on the speed granularity and the steering granularity that we have selected:
 
 Total number of actions in the action space = speed granularity * steering granularity
+
+From this, we conclude that the minimum number of action equals 1 * 3 = 3 actions,  
+while the maximum number of actions equals 3 * 7 = 21 actions
 
 Each action in the action space will have a unique number. In the logs, we can see that number and so we are able understand the exact acion that the our model chose at every step of a race.
 
