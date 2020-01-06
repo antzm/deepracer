@@ -107,4 +107,10 @@ We have the option to select either a 3-layer deep network or a 5-layer deep net
 ------------|---------------
 ![](imgs/cnn-01.PNG) | ![](imgs/cnn-02.PNG) 
 
+Network configuration
+* 3-layer deep network
+	This option is suitable for time racing
+* 5-layer deep network
+	This option if suitable for object avoidance and for racing with other DeepRacer cars on the same track
+
 5. Create your first model 
