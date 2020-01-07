@@ -65,11 +65,11 @@ This action space consists of: 2 * 5 = 10 actions
 
 Action Space | speed = 1.3 m/s | speed = 2.6 m/s
 -------------|-----------------|----------------
-steering -30 | -30 degrees at 1.3 m/s | -30 degrees at 2.6 m/s
-steering -15 | -15 degrees at 1.3 m/s | -15 degrees at 2.6 m/s
-steering   0 |   0 degrees at 1.3 m/s |   0 degrees at 2.6 m/s
-steering  15 |  15 degrees at 1.3 m/s |  15 degrees at 2.6 m/s
-steering  30 |  30 degrees at 1.3 m/s |  30 degrees at 2.6 m/s
+steering = -30 degrees | -30 degrees at 1.3 m/s | -30 degrees at 2.6 m/s
+steering = -15 degrees | -15 degrees at 1.3 m/s | -15 degrees at 2.6 m/s
+steering =   0 degrees |   0 degrees at 1.3 m/s |   0 degrees at 2.6 m/s
+steering =  15 degrees |  15 degrees at 1.3 m/s |  15 degrees at 2.6 m/s
+steering =  30 degrees |  30 degrees at 1.3 m/s |  30 degrees at 2.6 m/s
 
 And these are the numbers that are assigned to each one of the 10 actions:  
 
@@ -85,6 +85,14 @@ steering granularity: 3
 
 This action space consists of: 3 * 3 = 9 actions
 
+Action Space | speed = 0.8 m/s | speed = 1.6 m/s | speed = 2.4 m/s
+-------------|-----------------|-----------------|-----------------
+steering = -25 degrees | -25 degrees at 0.8 m/s | -25 degrees at 1.6 m/s | -25 degrees at 2.4 m/s
+steering =   0 degrees |   0 degrees at 0.8 m/s |   0 degrees at 1.6 m/s |   0 degrees at 2.4 m/s
+steering =  25 degrees |  25 degrees at 0.8 m/s |  25 degrees at 1.6 m/s |  25 degrees at 2.4 m/s
+
+And these are the numbers that are assigned to each one of the 9 actions: 
+
 ![](imgs/action-02.PNG) 
 
 **Example 3:**   
@@ -99,7 +107,9 @@ This action space consists of: 1 * 7 = 7 actions
 
 ![](imgs/action-03.PNG) 
 
-After selectinn the car's configuration, we need to select the network configuration which will be used to train our model.
+** Deep Network Settings **
+
+After selecting the car's configuration, we need to select the network configuration which will be used to train our model.
 
 We have the option to select either a 3-layer deep network or a 5-layer deep network.
 
@@ -109,8 +119,11 @@ We have the option to select either a 3-layer deep network or a 5-layer deep net
 
 Network configuration
 * 3-layer deep network
-	This option is suitable for time racing
+	* This option is suitable for time racing
 * 5-layer deep network
-	This option if suitable for object avoidance and for racing with other DeepRacer cars on the same track
+	* This option if suitable for object avoidance and for racing with other DeepRacer cars on the same track
 
 5. Create your first model 
+
+After all the above have been selected, the last thing we need to do is to customize our car with the color we prefer and at this point, our car's configuration has been completed and we are now ready to train our model:
+
