@@ -41,8 +41,8 @@ The car's maximum steering angle and the steering granularity
 -------------------|--------------------|-------------------
 ![](imgs/steering-01.PNG) | ![](imgs/steering-02.PNG) | ![](imgs/steering-03.PNG) 
 -max 0 max | -max -(1/2)max 0 (1/2)max max | -max -(2/3)max -(1/3)max 0 (1/3)max (2/3)max max
-example when max steering is set to 30 | example when max steering is set to 26 | example when max steering is set to 24
--30, 0, 30 | -26, -13, 0, 13, 26 | -24, -16, -8, 0, 8, 16, 24
+example when max steering \\is set to 30 | example when max steering \\is set to 26 | example when max steering \\is set to 24
+-30, \\0, \\30 | -26, -13, \\0, \\13, 26 | -24, -16, -8, \\0, \\8, 16, 24
 
 Thus, the action space will have a total number of actions based on the speed granularity and the steering granularity that we have selected:
 
