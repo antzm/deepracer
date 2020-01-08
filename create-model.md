@@ -105,6 +105,18 @@ steering granularity: 7
 
 This action space consists of: 1 * 7 = 7 actions
 
+Action Space | speed = 3 m/s 
+-------------|---------------
+steering = -30 degrees | -30 degrees at 3 m/s
+steering = -20 degrees | -20 degrees at 3 m/s
+steering = -10 degrees | -10 degrees at 3 m/s
+steering =   0 degrees |   0 degrees at 3 m/s
+steering =  10 degrees |  10 degrees at 3 m/s
+steering =  20 degrees |  20 degrees at 3 m/s
+steering =  30 degrees |  30 degrees at 3 m/s
+
+And these are the numbers that are assigned to each one of the 9 actions: 
+
 ![](imgs/action-03.PNG) 
 
 ** Deep Network Settings **
