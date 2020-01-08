@@ -65,11 +65,11 @@ This action space consists of: 2 * 5 = 10 actions
 
 Action Space | speed = 1.3 m/s | speed = 2.6 m/s
 -------------|-----------------|----------------
-steering = -30 degrees | -30 degrees at 1.3 m/s | -30 degrees at 2.6 m/s
-steering = -15 degrees | -15 degrees at 1.3 m/s | -15 degrees at 2.6 m/s
-steering =   0 degrees |   0 degrees at 1.3 m/s |   0 degrees at 2.6 m/s
-steering =  15 degrees |  15 degrees at 1.3 m/s |  15 degrees at 2.6 m/s
-steering =  30 degrees |  30 degrees at 1.3 m/s |  30 degrees at 2.6 m/s
+**steering = -30 degrees** | -30 degrees at 1.3 m/s | -30 degrees at 2.6 m/s
+**steering = -15 degrees** | -15 degrees at 1.3 m/s | -15 degrees at 2.6 m/s
+**steering =   0 degrees** |   0 degrees at 1.3 m/s |   0 degrees at 2.6 m/s
+**steering =  15 degrees** |  15 degrees at 1.3 m/s |  15 degrees at 2.6 m/s
+**steering =  30 degrees** |  30 degrees at 1.3 m/s |  30 degrees at 2.6 m/s
 
 And these are the numbers that are assigned to each one of the 10 actions:  
 
@@ -87,9 +87,9 @@ This action space consists of: 3 * 3 = 9 actions
 
 Action Space | speed = 0.8 m/s | speed = 1.6 m/s | speed = 2.4 m/s
 -------------|-----------------|-----------------|-----------------
-steering = -25 degrees | -25 degrees at 0.8 m/s | -25 degrees at 1.6 m/s | -25 degrees at 2.4 m/s
-steering =   0 degrees |   0 degrees at 0.8 m/s |   0 degrees at 1.6 m/s |   0 degrees at 2.4 m/s
-steering =  25 degrees |  25 degrees at 0.8 m/s |  25 degrees at 1.6 m/s |  25 degrees at 2.4 m/s
+**steering = -25 degrees** | -25 degrees at 0.8 m/s | -25 degrees at 1.6 m/s | -25 degrees at 2.4 m/s
+**steering =   0 degrees** |   0 degrees at 0.8 m/s |   0 degrees at 1.6 m/s |   0 degrees at 2.4 m/s
+**steering =  25 degrees** |  25 degrees at 0.8 m/s |  25 degrees at 1.6 m/s |  25 degrees at 2.4 m/s
 
 And these are the numbers that are assigned to each one of the 9 actions: 
 
@@ -107,13 +107,13 @@ This action space consists of: 1 * 7 = 7 actions
 
 Action Space | speed = 3 m/s 
 -------------|---------------
-steering = -30 degrees | -30 degrees at 3 m/s
-steering = -20 degrees | -20 degrees at 3 m/s
-steering = -10 degrees | -10 degrees at 3 m/s
-steering =   0 degrees |   0 degrees at 3 m/s
-steering =  10 degrees |  10 degrees at 3 m/s
-steering =  20 degrees |  20 degrees at 3 m/s
-steering =  30 degrees |  30 degrees at 3 m/s
+**steering = -30 degrees** | -30 degrees at 3 m/s
+**steering = -20 degrees** | -20 degrees at 3 m/s
+**steering = -10 degrees** | -10 degrees at 3 m/s
+**steering =   0 degrees** |   0 degrees at 3 m/s
+**steering =  10 degrees** |  10 degrees at 3 m/s
+**steering =  20 degrees** |  20 degrees at 3 m/s
+**steering =  30 degrees** |  30 degrees at 3 m/s
 
 And these are the numbers that are assigned to each one of the 9 actions: 
 
