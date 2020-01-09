@@ -40,11 +40,11 @@ The car's maximum steering angle and the steering granularity
 3 steering options | 5 steering options | 7 steering options
 -------------------|--------------------|-------------------
 ![](imgs/steering-01.PNG) | ![](imgs/steering-02.PNG) | ![](imgs/steering-03.PNG)
-**Left:** -max *degrees* | **Left:** -max **&** -(1/2)max *degrees* | **Left:** -max **&** -(2/3)max **&** -(1/3)max *degrees*
-**Center:** 0 *degrees* | **Center:** 0 *degrees* | **Center:** 0 *degrees*
-**Right:** max *degrees* | **Right:** (1/2)max **&** max *degrees* | **Right:** (1/3)max **&** (2/3)max **&** max *degrees*
-**example** when max steering is set to 30 | example when max steering is set to 26 | example when max steering is set to 24
--30, 0, 30 *degrees* | -26, -13, 0, 13, 26 *degrees* | -24, -16, -8, 0, 8, 16, 24 *degrees*
+**Left:** -max degrees | **Left:** -max **&** -(1/2)max degrees | **Left:** -max **&** -(2/3)max **&** -(1/3)max degrees
+**Center:** 0 degrees | **Center:** 0 degrees | **Center:** 0 degrees
+**Right:** max degrees | **Right:** (1/2)max **&** max degrees | **Right:** (1/3)max **&** (2/3)max **&** max degrees
+**example when max steering angle is set to 30 degrees:** | **example when max steering angle is set to 26 degrees:** | **example when max steering angle is set to 24 degrees:**
+-30, 0, 30 degrees | -26, -13, 0, 13, 26 degrees | -24, -16, -8, 0, 8, 16, 24 degrees
 
 Thus, the action space will have a total number of actions based on the speed granularity and the steering granularity that we have selected:
 
@@ -58,10 +58,12 @@ Each action in the action space will have a unique number. In the logs, we can s
 **Example 1:**  
 
 max speed: 2.6 m/s  
-speed granularity: 2
+speed granularity: 2  
+(i.e. 1.3, 2.6 m/s)  
 
 max steering angle: 30 degrees  
 steering granularity: 5  
+(i.e. -30, -15, 0, 15, 30 degrees)  
 
 This action space consists of: 2 * 5 = 10 actions  
 
@@ -80,10 +82,12 @@ And these are the numbers that are assigned to each one of the 10 actions:
 **Example 2:**  
 
 max speed: 2.4 m/s  
-speed granularity: 3
+speed granularity: 3  
+(i.e. 0.8, 1.6, 2.4 m/s)  
 
 max steering angle: 25 degrees  
 steering granularity: 3
+(i.e. -25, 0, 25 degrees)
 
 This action space consists of: 3 * 3 = 9 actions
 
@@ -101,9 +105,11 @@ And these are the numbers that are assigned to each one of the 9 actions:
 
 max speed: 3 m/s  
 speed granularity: 1  
+(i.e. speed is constant at 3 m/s)
 
 max steering angle: 30 degrees  
-steering granularity: 7
+steering granularity: 7  
+(i.e. -30, -20, -10, 0, 10, 20, 30 degrees)  
 
 This action space consists of: 1 * 7 = 7 actions
 
@@ -140,3 +146,4 @@ Network configuration
 5. Create your first model
 
 After all the above have been selected, the last thing we need to do is to customize our car with the color we prefer and at this point, our car's configuration has been completed and we are now ready to train our model:
+
