@@ -8,9 +8,12 @@
 * Virtual track races
 	* Preparation races
 	* Virtual races
-	* Customized races
+	     * Time races
+	     * Object avoidance races
+	     * Head to head races
+	* Community races
 * Virtual tracks
-	* Tracks for preparation
+	* Tracks for training
 	* Tracks for racing
 * Evaluation logs
 	* Training logs

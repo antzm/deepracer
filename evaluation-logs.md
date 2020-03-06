@@ -51,7 +51,7 @@ var | Meaning | example
 13 | closest_waypoint_index | These are numbers across the track, starting from 1 and up to a max number which is usaually between 150 and 180
 14 | track_length | The length of the track in meters
 15 | time.time() | Time in a format like this: 1569740907.5428395
-16 | *new variable* | Recently added variable with the values: in_progress, off_track, crashed, lap_complete
+16 | *new variable* | Recently added variable with the values: in_progress, off_track, crashed, paused, lap_complete
 
 ## The Variables in more detail
 
@@ -113,6 +113,5 @@ This undocumented variable was added at the end of November 2019 and it gets the
 * in_progress
 * off_track
 * crashed
+* paused
 * lap_complete
-
-
