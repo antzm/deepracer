@@ -132,3 +132,14 @@ Length: | 16.64 m | 54.59'
 Width: | 107 cm | 42"
 
 ![](imgs/train-12.svg)
+
+---
+
+# Sola
+
+Dimensions | meters/cm | feet/inches
+-----------|--------|-------
+Length: | 38 m | 124'
+Width: | 106 cm | 42"
+
+![](imgs/train-13.svg)
