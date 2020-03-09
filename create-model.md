@@ -143,9 +143,9 @@ We have the option to select either a 3-layer deep network or a 5-layer deep net
 
 Network configuration
 * 3-layer deep network
-	* This option is suitable for time racing
+	* This deep network takes less time to be trained but is somehow less delicate during critical situations. It's fine for the time races but, depending on it's training, it might not be so adequate in some object avoidance and head to head races.
 * 5-layer deep network
-	* This option if suitable for object avoidance and for racing with other DeepRacer cars on the same track
+	* This deep network takes more time to be trained but it's behavior is somehow more delicate during critical situations while racing. If trained correctly, it will probably behave in a better way during the object avoidance races and the head to head races. 
 
 5. Create your first model
 
