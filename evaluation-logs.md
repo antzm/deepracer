@@ -111,7 +111,13 @@ A simpler, though only approximate way to estimate the time, is to divide the nu
 ### 16. *new variable* representing "status"
 This undocumented variable was added at the end of November 2019 and it gets the following values:
 * in_progress
+	* While the car is racing inside the track without any crashes
 * off_track
+	* When all fours wheels are outside of the track
 * crashed
+	* When the car crashes on an object or with another DeepRacer car
 * paused
+	* When the car goes off track, the race pauses for 2 seconds (2 seconds penalty)
+	* When the car crashes, either with an object or with another car, the race pauses for 5 seconds (5 seconds penalty)
 * lap_complete
+	* When the lap has been completed or the predetermined number of laps has been completed
