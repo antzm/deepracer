@@ -32,7 +32,7 @@ Whenever submitting a model to the race, the car always runs 5 laps. Each of tho
 Each new episode in the logs starts with the line “agent: Starting evaluation phase” followed by several (or even hundreds) of “SIM_TRACE_LOG:” lines.
 
 
-Each “SIM_TRACE_LOG:” line has 16 variables (separated by commas) which are as follows:
+Each "SIM_TRACE_LOG:" line has 16 variables (separated by commas) which are as follows:
 
 var | Meaning | example
 ---|---|---
@@ -56,10 +56,10 @@ var | Meaning | example
 ## The Variables in more detail
 
 ### 1. Episode
-When sending a model to a virtual race, the car will try five (5) times to complete a lap. Each one of those 5 trials is an episode and the numbering of the episodes is: 0, 1, 2, 3, and 4
+When sending a model to a virtual race, the car will run a predetermind number of laps (Depending on the race). Each one of those laps is an episode and the numbering of the episodes is: 0, 1, 2, 3...
 
 ### 2. Step
-The deepracer camera provides 15 images per second. Based on each one of those images, the car decides about the next action that is goinf to take. So, every 1/15th of a second, the car uses the current image to make a decision and this is counted as one step. Thus, the car takes 15 steps per second and so, if a car takes e.g. 386 steps to complete a lap, then the approximate time is around: 386 steps / 15 steps per second =  27.733 seconds. This time though is just an approximation as there is a dedicated variable to caluclate the exact time od each lap.
+The deepracer camera provides 15 images per second. Based on each one of those images, the car decides about the next action that is goinf to take. So, every 1/15th of a second, the car uses the current image to make a decision and this is counted as one step. Thus, the car takes 15 steps per second and so, if a car takes e.g. 386 steps to complete a lap, then the approximate time is around: 386 steps / 15 steps per second =  27.733 seconds. This time though is just an approximation as there is a dedicated variable to caluclate the exact time during each lap.
 
 ### 3. x-coordinate
 This is the x coordinate of the car's position. The units are in meters.
@@ -69,17 +69,17 @@ This is the y coordinate of the car's position. The units are in meters.
 
 ### 5. Heading
 This is the heading of the car in radians. To convert to degrees, we should multiply by 57,29587795  
-(360 degress = 2π radians => 1 radian = 360/2π degress => 1 radian = 360/2\*3,14159 degrees=> 1 radian = 57,2958 degrees)
+(360 degress = 2π radians => 1 radian = 360/2π degrees => 1 radian = 360/2\*3,14159 degrees=> 1 radian = 57,2958 degrees)
 
-On a X-Y coordinate, when the car is heading right, the heading is 0o. Heading up is 90o. Heading left is 180o
-Negative values: When the car is heading right is 0o. Heading down is -90o and heading left is -180o
-So, heading right, might be 180o or -180o depending on its previous position
+On a X-Y coordinate system, when the car is heading right, the heading is 0 deg. Heading up is 90 deg. Heading left is 180 deg.
+Negative values: When the car is heading right is 0 deg. Heading down is -90 deg and heading left is -180 deg.
+So, heading right, might be 180 deg. or -180 deg. depending on its previous position
 
 ### 6. Steering angle
-This is the steering angle in radians. When defining the action space, the steering angle is mentioned in degrees but during the racing, the steering angle is logged in radians. To convert those radians we just multiply by 57,29587795 and we get the values in degrees.
+This is the steering angle in radians. When defining the action space, the steering angle is mentioned in degrees but during the racing, the steering angle is logged in radians. To convert those radians we just multiply by 57,29587795 (1 radian = 360/2π degrees) and we get the values in degrees.
 
 ### 7. Speed
-The speeds that can be selected in the action space differ from time to time. Currently, the speeds that can be selected range from 1 to 4 while in the past is was possible to select speeds from 1 to 8 and during a certain period, even speeds from 1 to 12. Now, those speeds have some common ground beteween them but the exact correlation has not been documented.
+The speeds that can be selected in the action space differs from time to time. Currently, the speeds that can be selected range from 1 to 4 while in the past is was possible to select speeds from 1 to 8 and during a certain period, even speeds from 1 to 12. Now, those speeds have some common ground beteween them but the exact correlation has not been documented.
 Based on the speeds that were selected in the action space, this variable shows the speed that the car decided to use in each step. We shouldn't think though that this variable represents the actual speed of the car but rather it shows the tendency or the target to reach a certain speed under the ideal conditions and after a cetain time of acceleration. Just like an actual car, it takes some time and distance to go from 50km/h to 100km/h and obviously, takes also some time to go back to 50km/h.
 So, when a car uses only those two speeds, in reality it means that a whole range of values exists between those two speeds and the car needs to go gradually through all those speeds to reach one of the two preselected target speeds.
 
@@ -93,10 +93,10 @@ This is the value of the reward that the car gets at every step. At the end of e
 Booleean variable. This is False as long a the car races and becomes True when the race ends i.e. The car either succefully completes a lap or it goes off track.
 
 ### 11. All wheels on track
-Booleean variable. True when all the wheels are on the track anf False otherwise.
+Booleean variable. True when all the wheels are on the track and False otherwise.
 
 ### 12. Progress
-This is the % completion of the track presented with an accuracy of four decimal points.
+This is the percentage (%) completion of the track presented with an accuracy of four decimal points.
 
 ### 13. Closest waypoint index
 This variable shows the closest index at each step of the race. i.e. the waypoint with the smallest distance from the car.
@@ -113,7 +113,7 @@ This undocumented variable was added at the end of November 2019 and it gets the
 * in_progress
 	* While the car is racing inside the track without any crashes
 * off_track
-	* When all fours wheels are outside of the track
+	* When all four wheels are outside of the track
 * crashed
 	* When the car crashes on an object or with another DeepRacer car
 * paused
