@@ -6,8 +6,6 @@
 
 ![](imgs/logo-01.PNG)
 ![](imgs/race-01.svg)
-## Top Leaderboard Names:
-![](imgs/names-01.PNG)  
 
 ---
 
@@ -17,6 +15,7 @@
 ![](imgs/race-02.svg)
 ## Top Leaderboard Names:
 ![](imgs/names-02.PNG)  
+## [Official Leadrboard]()
    
 ---
 
@@ -26,6 +25,7 @@
 ![](imgs/race-03.svg)
 ## Top Leaderboard Names:
 ![](imgs/names-03.PNG)  
+## [Official Leadrboard]()
    
 ---
 
@@ -35,6 +35,7 @@
 ![](imgs/race-04.svg)
 ## Top Leaderboard Names:
 ![](imgs/names-04.PNG)  
+## [Official Leadrboard]()
    
 ---
 
@@ -44,6 +45,7 @@
 ![](imgs/race-05.svg)
 ## Top Leaderboard Names:
 ![](imgs/names-05.PNG)  
+## [Official Leadrboard]()
    
 ---
 
@@ -53,6 +55,7 @@
 ![](imgs/race-06.svg)
 ## Top Leaderboard Names:
 ![](imgs/names-06.PNG)  
+## [Official Leadrboard]()
    
 ---
 
@@ -62,6 +65,7 @@
 ![](imgs/race-07.svg)
 ## Top Leaderboard Names:
 ![](imgs/names-07.PNG)  
+## [Official Leadrboard]()
    
 ---
 
@@ -69,8 +73,6 @@
 
 ![](imgs/logo-08.PNG)
 ![](imgs/race-08.svg)
-##  Top Leaderboard Names (Preliminary resluts):
-![](imgs/names-08.PNG)  
    
 ---
 
@@ -78,8 +80,6 @@
 
 ![](imgs/logo-09.PNG)
 ![](imgs/race-09.svg)
-## Top Leaderboard Names (Current results):
-![](imgs/names-09.PNG)  
 
 ---
 
