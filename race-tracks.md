@@ -15,7 +15,7 @@
 ![](imgs/race-02.svg)
 ## Top Leaderboard Names:
 ![](imgs/names-02.PNG)  
-## [Official Leadrboard]()
+## [Official Leadrboard](https://aws.amazon.com/deepracer/schedule-and-standings/leaderboard-virtual-london-loop-2019/)
    
 ---
 
@@ -25,7 +25,7 @@
 ![](imgs/race-03.svg)
 ## Top Leaderboard Names:
 ![](imgs/names-03.PNG)  
-## [Official Leadrboard]()
+## [Official Leadrboard](https://aws.amazon.com/deepracer/schedule-and-standings/leaderboard-virtual-kumo-torakku-2019/)
    
 ---
 
@@ -35,7 +35,7 @@
 ![](imgs/race-04.svg)
 ## Top Leaderboard Names:
 ![](imgs/names-04.PNG)  
-## [Official Leadrboard]()
+## [Official Leadrboard](https://aws.amazon.com/deepracer/schedule-and-standings/leaderboard-virtual-empire-city-circuit-2019/)
    
 ---
 
@@ -45,7 +45,7 @@
 ![](imgs/race-05.svg)
 ## Top Leaderboard Names:
 ![](imgs/names-05.PNG)  
-## [Official Leadrboard]()
+## [Official Leadrboard](https://aws.amazon.com/deepracer/schedule-and-standings/leaderboard-virtual-shanghai-sudo-circuit-2019/)
    
 ---
 
@@ -55,7 +55,7 @@
 ![](imgs/race-06.svg)
 ## Top Leaderboard Names:
 ![](imgs/names-06.PNG)  
-## [Official Leadrboard]()
+## [Official Leadrboard](https://aws.amazon.com/deepracer/schedule-and-standings/leaderboard-virtual-cumulo-carrera-2019/)
    
 ---
 
@@ -65,7 +65,8 @@
 ![](imgs/race-07.svg)
 ## Top Leaderboard Names:
 ![](imgs/names-07.PNG)  
-## [Official Leadrboard]()
+## [Official Leadrboard](https://aws.amazon.com/deepracer/schedule-and-standings/leaderboard-virtual-toronto-turnpike-2019/
+)
    
 ---
 
