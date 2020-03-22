@@ -1,11 +1,11 @@
 # Introduction to AWS DeepRacer
 
 * About AWS DeepRacer
-* Creating a model
+* [Creating a model](create-model.md)
 * Training a model
-* Training tracks
+* [Training tracks](train-tracks.md)
 * Evaluating a model
-* Virtual track races
+* [Virtual track races](race-tracks.md)
 	* Preparation races
 	* Virtual races
 	     * Time races
@@ -15,7 +15,7 @@
 * Virtual tracks
 	* Tracks for training
 	* Tracks for racing
-* Evaluation logs
+* [Evaluation logs](evaluation-logs.md)
 	* Training logs
 	* Evaluation logs
 	* Virtual races logs

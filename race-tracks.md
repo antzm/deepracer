@@ -65,8 +65,7 @@
 ![](imgs/race-07.svg)
 ## Top Leaderboard Names:
 ![](imgs/names-07.PNG)  
-## [Official Leadrboard](https://aws.amazon.com/deepracer/schedule-and-standings/leaderboard-virtual-toronto-turnpike-2019/
-)
+## [Official Leadrboard](https://aws.amazon.com/deepracer/schedule-and-standings/leaderboard-virtual-toronto-turnpike-2019/)
    
 ---
 
