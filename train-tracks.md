@@ -143,3 +143,5 @@ Length: | 38 m | 124'
 Width: | 106 cm | 42"
 
 ![](imgs/train-13.svg)
+
+*[Introduction to AWS DeepRacer](README.md)*

@@ -121,3 +121,5 @@ This undocumented variable was added at the end of November 2019 and it gets the
 	* When the car crashes, either with an object or with another car, the race pauses for 5 seconds (5 seconds penalty)
 * lap_complete
 	* When the lap has been completed or the predetermined number of laps has been completed
+
+*[Introduction to AWS DeepRacer](README.md)*

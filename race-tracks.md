@@ -89,3 +89,6 @@
 ![](imgs/race-10.svg)
 
 ---
+
+*[Introduction to AWS DeepRacer](README.md)*
+

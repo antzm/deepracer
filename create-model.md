@@ -150,3 +150,6 @@ Network configuration
 5. Create your first model
 
 After all the above have been selected, the last thing we need to do is to give a name to our car and to customize it with the color we prefer and at this point, our car's configuration has been completed and we are now ready to train our model:
+
+*[Introduction to AWS DeepRacer](README.md)*
+
