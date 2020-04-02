@@ -1,4 +1,6 @@
-# Introduction to AWS DeepRacer
+# Introduction to the AWS DeepRacer
+
+This repository conatins a brief introduction to the AWS DeepRacer. It presents the neccesary inofrmation needed to create a model in the AWS DeepRacer console, train the model, paricipate in a virtual race and understand the evaluation logs.
 
 * About AWS DeepRacer
 * [Creating a model](create-model.md)
